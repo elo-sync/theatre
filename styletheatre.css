@@ -21,6 +21,9 @@ h3 {
     color: aliceblue;
     font-family: Constantia;
     font-size: 300%;
+    position:absolute;
+    left:400px;
+    top:70px;
 }
 
 h4 {
@@ -39,10 +42,17 @@ h4 {
 
 .lien {
     font-style:italic;
-    color:rgb(240, 248, 255);
+    color:rgb(34, 97, 74);
     font-family: Tahoma;
-    font-size: 200%;
-    margin-left: 150px;
+    font-size: 100%;
+}
+ 
+a {
+    color: rgb(34, 97, 74);
+}
+
+a:hover {
+    color:rgb(27, 79, 60);
 }
 
 .haut {
@@ -214,10 +224,55 @@ img {
     font-family: Tahoma;
     font-size: 200%;
     text-align:center;
-    top: 20%;
+    top: 18%;
     left: 28%;
 }
 
-/*#menu {
+#menu {
+    width:0;
+    display: grid;
+    opacity: 0;
+}
 
+@keyframes closeAnimation {
+  from {
+    width:200px;
+    opacity: 1;
+  }
+  to {
+    width: 0px;
+    opacity: 0;
+  }
+}
+
+@keyframes openAnimation{
+    from {
+      width:0;
+      opacity: 0;
+    }
+    to {
+      width: 200px;
+      opacity: 1;
+    }
+  }
+
+.close {
+    animation: 1s ease-in-out forwards closeAnimation;
+}
+
+.open {
+    animation: 1s ease-in-out forwards openAnimation;
+}
+
+.suivre {
+    bottom: 90px;;
+    left:250px;
+}
+
+.suivre:hover {
+    cursor: pointer;
+}
+
+.w-100 {
+    width:100%;
 }

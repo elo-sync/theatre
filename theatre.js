@@ -1,10 +1,13 @@
 function menuthe() {
     const menu=document.getElementById("menu");
-        if (menu.style.display=="none") {
-            menu.style.display="grid"
+        if (menu.className === "close") {
+            menu.className="open"
         }
-        else{
-        menu.style.display="none"
+        else if(menu.className ==="open"){
+            menu.className="close"
+        }
+        else {
+            menu.className="open"
         }
 }
 document.getElementById('menu_icon').addEventListener('click', menuthe)
@@ -21,4 +24,3 @@ document.getElementById('menu_icon').addEventListener("mouseleave", function() {
     menu_icon("aliceblue")
 } )
 
-//("#00ecae")
