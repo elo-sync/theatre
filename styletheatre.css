@@ -1,0 +1,223 @@
+body {
+    background-color: rgb(40, 39, 46);
+}
+
+h1 {
+    text-align: left;
+    margin-left: 100px;
+    font-family: Constantia;
+    font-size: 400%;
+    color:aliceblue;
+}
+
+h2 {
+    color: #00ecae;
+    text-align: center;
+    font-family: Impact;
+    font-size: 300%;
+}
+
+h3 {
+    color: aliceblue;
+    font-family: Constantia;
+    font-size: 300%;
+}
+
+h4 {
+    color: rgb(215, 128, 35);
+    font-family: Tahoma;
+    font-size: 300%;
+    margin-left: 20px;
+}
+
+.histoire {
+    color:aliceblue;
+    font-family: Tahoma;
+    font-size: 200%;
+    margin-left: 150px;
+}
+
+.lien {
+    font-style:italic;
+    color:rgb(240, 248, 255);
+    font-family: Tahoma;
+    font-size: 200%;
+    margin-left: 150px;
+}
+
+.haut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+.pink {
+    background-color:rgb(246, 175, 161);
+    border-color: rgb(235, 188, 179);
+    font-family: Tahoma;
+    color: aliceblue;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.button_hover1:hover {
+    background-color: rgb(241, 155, 138);
+    border-color:rgb(246, 175, 161);
+    cursor: pointer;
+}
+
+.button {
+    background-color:rgb(172, 178, 226);
+    font-family: Tahoma;
+    color: aliceblue;
+    font-size: 80%;
+    padding: 20px;
+    margin: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 70px;
+    border-radius: 15px;
+    border-color: rgb(196, 199, 223); 
+}
+
+.button_hover2:hover {
+    background-color: rgb(142, 149, 201);
+    border-color:rgb(172, 178, 226) ;
+    cursor: pointer;
+}
+
+.panier {
+    border-color:rgb(196, 199, 223);
+    background-color:rgb(172, 178, 226);
+    border-radius: 15px 50px;
+    font-family: Tahoma;
+    font-size: 80%;
+    color: aliceblue;
+    padding: 20px;
+    margin: 5px;
+}
+
+.grun {
+    background-color:rgb(34, 97, 74);
+    border-color: rgb(34, 97, 74);
+    font-family: Tahoma;
+    color: aliceblue;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.grunhov:hover {
+    cursor: pointer;
+    border-color: rgb(34, 97, 74);
+    background-color:rgb(27, 79, 60);
+}
+
+.purp {
+    background-color:rgb(111, 64, 136);
+    border-color: rgb(130, 82, 156);
+    font-family: Tahoma;
+    color: aliceblue;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.purphov:hover {
+    cursor: pointer;
+    border-color: rgb(111, 64, 136);
+    background-color:rgb(92, 48, 117);
+}
+
+.blue {
+    background-color:rgb(74, 149, 159);
+    border-color:rgb(89, 178, 189);
+    font-family: Tahoma;
+    color: aliceblue;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.bluhov:hover {
+    cursor: pointer;
+    border-color: rgb(74, 149, 159);
+    background-color:rgb(61, 129, 138);  
+}
+
+.orange {
+    background-color:rgb(215, 128, 35);
+    border-color: rgb(223, 144, 60);
+    font-family: Tahoma;
+    color: aliceblue;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.oranghov:hover {
+    cursor: pointer;
+    border-color: rgb(215, 128, 35);
+    background-color:rgb(188, 110, 26);  
+}
+
+.images {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 20px;   
+    width: 100%; 
+}
+
+.image {
+    background-color:rgb(34, 97, 74);
+    padding: 5px;
+    position: relative;
+}
+
+img {
+    width: 236px;
+    height: 321px;
+    object-fit: cover;
+}
+
+.svg {
+    display:flex;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.hov:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.star {
+    color: aliceblue;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    font-size: 170%;
+}
+
+.bubble {
+    color: aliceblue;
+    position: absolute;
+    font-family: Tahoma;
+    font-size: 200%;
+    text-align:center;
+    top: 20%;
+    left: 28%;
+}
+
+/*#menu {
+
+}
