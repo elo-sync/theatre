@@ -23,7 +23,7 @@ h3 {
     font-size: 300%;
     position:absolute;
     left:400px;
-    top:70px;
+    top:120px;
 }
 
 h4 {
@@ -194,6 +194,8 @@ img {
     width: 236px;
     height: 321px;
     object-fit: cover;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 11px 11px 8px 0px rgba(0,0,0,0.66); 
+    box-shadow: 0px 10px 13px -7px #000000, 11px 11px 8px 0px rgba(0,0,0,0.66);
 }
 
 .svg {
@@ -208,8 +210,8 @@ img {
     cursor: pointer;
 }
 
-.star {
-    color: aliceblue;
+.steps {
+    color: #f0f8ff;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -218,7 +220,7 @@ img {
     font-size: 170%;
 }
 
-.bubble {
+.bubble_text {
     color: aliceblue;
     position: absolute;
     font-family: Tahoma;
@@ -226,6 +228,10 @@ img {
     text-align:center;
     top: 18%;
     left: 28%;
+}
+
+.bubble {
+    position: relative;
 }
 
 #menu {
@@ -264,16 +270,25 @@ img {
     animation: 1s ease-in-out forwards openAnimation;
 }
 
+.icons {
+    bottom: 60px;;
+    left:270px;
+}
+
 .suivre {
-    bottom: 90px;;
-    left:250px;
+    margin:auto 10px
+}
+
+.icons_width {
+    width: 100px;
+    height: 100px;
 }
 
 .suivre:hover {
     cursor: pointer;
     width: 60px;
     height: 60px;
-    /*color:rgb(149, 45, 111);*/
+    stroke:rgb(149, 45, 111) !important;
     animation: 1s ease-in-out alternate grow;
 }
 
@@ -288,4 +303,14 @@ img {
 
 .w-100 {
     width:100%;
+}
+
+.star {
+    bottom:50px;
+    right:80px;
+}
+
+.shirt {
+    top: 50px;
+    right: 300px;
 }
