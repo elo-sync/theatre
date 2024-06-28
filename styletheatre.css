@@ -271,6 +271,19 @@ img {
 
 .suivre:hover {
     cursor: pointer;
+    width: 60px;
+    height: 60px;
+    /*color:rgb(149, 45, 111);*/
+    animation: 1s ease-in-out alternate grow;
+}
+
+@keyframes grow {
+    from {
+        transform:scale(50px,50px);
+    }
+    to {
+        transform: scale(60px,60px);
+    }
 }
 
 .w-100 {
