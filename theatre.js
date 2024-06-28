@@ -24,3 +24,16 @@ document.getElementById('menu_icon').addEventListener("mouseleave", function() {
     menu_icon("aliceblue")
 } )
 
+function showsaison() {
+    const saison=document.getElementById("saison");
+        if (saison.className === "closeSaison") {
+            saison.className="openSaison"
+        }
+        else if(saison.className ==="openSaison"){
+            saison.className="closeSaison"
+        }
+        else {
+            saison.className="openSaison"
+        }
+}
+document.getElementById('prog').addEventListener('click', showsaison)

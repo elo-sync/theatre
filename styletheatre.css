@@ -270,6 +270,42 @@ img {
     animation: 1s ease-in-out forwards openAnimation;
 }
 
+#saison {
+    width:0;
+    display: grid;
+    opacity: 0;
+}
+
+@keyframes closeSaisonAnimation {
+  from {
+    width:400px;
+    opacity: 1;
+  }
+  to {
+    width: 0px;
+    opacity: 0;
+  }
+}
+
+@keyframes openSaisonAnimation{
+    from {
+      width:0;
+      opacity: 0;
+    }
+    to {
+      width: 400px;
+      opacity: 1;
+    }
+  }
+
+.close {
+    animation: 1s ease-in-out forwards closeSaisonAnimation;
+}
+
+.open {
+    animation: 1s ease-in-out forwards openSaisonAnimation;
+}
+
 .icons {
     bottom: 60px;;
     left:270px;
